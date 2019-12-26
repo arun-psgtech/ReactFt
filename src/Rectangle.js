@@ -6,7 +6,7 @@ class Rectangle extends Component{
 
     showValue = (event,value)=>{
         
-        if(event['currentTarget'].id===value){
+        if(event['currentTarget'].id.value===value){
             alert(value);
         }
         event.stopPropagation();

@@ -11,7 +11,7 @@ class Employee extends Component{
         
      };
      onClickButton=(i)=>{
-         alert('alert'+i);
+         alert('alert'+i.value);
         //  this.setState({count:i});
         // console.log('Entered');
         // console.log(this.state.count);
