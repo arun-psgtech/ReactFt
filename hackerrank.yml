@@ -2,7 +2,7 @@ version: 1.0
 configuration:
   has_webserver: true
   scoring:
-    command: "react-scripts test Employee.test.js --watchAll=false"
+    command: "npm install && react-scripts test Employee.test.js --watchAll=false"
     files:
       - junit.xml
   ide_config:
